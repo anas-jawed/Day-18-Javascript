@@ -153,3 +153,30 @@
 // const randomnumer = Math.floor(Math.random() * (max - min + 1) + min);
 // console.log(randomnumer ) 
 
+// QS1 Create a program that generstes a random number representing a dice roll [THe number should be between 1 and 6]
+
+// let random = Math.floor(Math.random() * 6) + 1;
+
+// console.log(random)
+
+// Qs2 create an object representating a car that stoeres the following properties for the car, name, model, color print the car name;
+
+
+// const car = {
+//     name: "Honda",
+//     model: 2001,
+//     color: "blue"
+// };
+// console.log(car.name);
+
+//  QS3 create an object Person with their name, age and city. edit their city original value tp change it to new york" Add a new property country and set it to the Unutes States;
+
+const Person = {
+    name: "Anas Jawaid",
+    age: 23,
+    city: "Karachi",
+}
+
+Person.city = "New York";
+Person.country = "United States";
+console.log(Person);
